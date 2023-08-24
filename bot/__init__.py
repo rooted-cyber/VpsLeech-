@@ -480,7 +480,7 @@ if len(AUTHOR_NAME) == 0:
 
 AUTHOR_URL = environ.get('AUTHOR_URL', '')
 if len(AUTHOR_URL) == 0:
-    AUTHOR_URL = 'https://t.me/WZML_X'
+    AUTHOR_URL = 'https://t.me/itz_sahil_official'
 
 TITLE_NAME = environ.get('TITLE_NAME', '')
 if len(TITLE_NAME) == 0:
@@ -488,11 +488,11 @@ if len(TITLE_NAME) == 0:
     
 COVER_IMAGE = environ.get('COVER_IMAGE', '')
 if len(COVER_IMAGE) == 0:
-    COVER_IMAGE = 'https://graph.org/file/60f9f8bcb97d27f76f5c0.jpg'
+    COVER_IMAGE = 'https://telegra.ph/file/12ac341f206163756bfa8.jpg'
 
 GD_INFO = environ.get('GD_INFO', '')
 if len(GD_INFO) == 0:
-    GD_INFO = 'Uploaded by WZML-X'
+    GD_INFO = 'ɮօȶ քօաɛʀɛɖ ɮʏ @sahil_official_here'
 
 SAVE_MSG = environ.get('SAVE_MSG', '')
 SAVE_MSG = SAVE_MSG.lower() == 'true'
