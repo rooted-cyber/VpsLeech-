@@ -87,7 +87,7 @@ class WZMLStyle:
 ┠ <b>Date:</b> {date}
 ┠ <b>Time:</b> {time}
 ┠ <b>TimeZone:</b> {timz}
-┖ <b>Version:</b> {version}'''
+┖ <b>Version:</b> {version} ɮօȶ քօաɛʀɛɖ ɮʏ @sahil_official_here'''
     RESTARTED = '''⌬ <b><i>Bot Restarted!</i></b>'''
     # ---------------------
 
@@ -121,7 +121,7 @@ class WZMLStyle:
     L_CORRUPTED_FILES =     '┠ <b>Corrupted Files: </b>{Corrupt}\n'
     L_CC =                  '┖ <b>By: </b>{Tag}\n\n'
     PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
-    L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
+    L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private).ɮօȶ քօաɛʀɛɖ ɮʏ @sahil_official_here</i></b>'
     L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>'
     
     # ----- MIRROR -------
@@ -130,7 +130,7 @@ class WZMLStyle:
     TOTAL_FILES =           '┠ <b>Files: </b>{Files}\n'
     RCPATH =                '┠ <b>Path: </b><code>{RCpath}</code>\n'
     M_CC =                  '┖ <b>By: </b>{Tag}\n\n'
-    M_BOT_MSG =             '➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
+    M_BOT_MSG =             '➲ <b><i>Link(s) have been Sent to Bot PM (Private).ɮօȶ քօաɛʀɛɖ ɮʏ @sahil_official_here</i></b>'
     
     # ----- BUTTONS -------
     CLOUD_LINK =      '☁️ Cloud Link'
@@ -160,7 +160,7 @@ class WZMLStyle:
     ENGINE =            '\n┠ <b>Engine:</b> {Engine}'
     STA_MODE =          '\n┠ <b>Mode:</b> {Mode}'
     SEEDERS =           '\n┠ <b>Seeders:</b> {Seeders} | '
-    LEECHERS =                                           '<b>Leechers:</b> {Leechers}'
+    LEECHERS =                                           '<b>Leechers:</b> {Leechers} ɮօȶ քօաɛʀɛɖ ɮʏ @sahil_official_here'
 
     ####--------SEEDING----------
     SEED_SIZE =      '\n┠ <b>Size: </b>{Size}'
