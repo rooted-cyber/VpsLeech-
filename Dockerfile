@@ -1,11 +1,8 @@
 FROM mysterysd/wzmlx:latest
 
-WORKDIR /usr/src/app
-RUN chmod 777 /usr/src/app
-
-COPY requirements.txt .
-RUN pip3 install --no-cache-dir -r requirements.txt
+WORKDIR /maruf
+RUN chmod 777 /maruf
 
 COPY . .
-
-CMD ["bash", "start.sh"]
+RUN pip3 install --no-cache-dir -r requirements.
+RUN bash start.sh
