@@ -66,9 +66,9 @@ status_reply_dict = {}
 download_dict = {}
 rss_dict = {}
 
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '1064540465:AAFTgEC_xtVSiu3RdoESorVfy_cAwZ5K0Qw')
 if len(BOT_TOKEN) == 0:
-    log_error("BOT_TOKEN variable is missing! Exiting now")
+    log_error("BOT_TOKEN variable is available.Plz bdlo repo")
     exit(1)
 
 bot_id = BOT_TOKEN.split(':', 1)[0]
